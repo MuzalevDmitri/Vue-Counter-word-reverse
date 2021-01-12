@@ -403,3 +403,14 @@ input {
     border-radius: 50px;
     outline:none;
 }
+
+
+.inp {
+    padding: 16px 12px;
+    font-size: 28px;
+    margin: 1px 0px 10px 0px;
+    border-radius: 100px;
+    outline:none;
+    width: 70px;
+    text-align: center;
+}

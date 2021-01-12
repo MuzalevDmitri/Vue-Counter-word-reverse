@@ -9,13 +9,16 @@
 <body>
     <div class="container pt-5" id="app">
         <div class="card center">
-            <h1>{{title}} : {{ counter  }}</h1>
+            <h1>{{title}} : <input type="text" v-model="counter" class="inp"></h1>
             <div>
                 <button class="btn primary" v-on:click="counter++">Add</button>
                 <button class="btn primary" v-on:click="counter--">Delete</button>
                 <button class="btn primary" v-on:click="counter = 0">Reset</button>
                 <button class="btn primary" v-on:click="mounted">Auto +</button>
                 <button class="btn primary" v-on:click="minus">Auto -</button>
+                <br>
+               
+             
 
 
 
