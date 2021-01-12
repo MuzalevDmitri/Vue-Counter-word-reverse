@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container pt-5" id="app">
+        <div class="card center">
+            <h1>{{title}} : {{ counter  }}</h1>
+            <div>
+                <button class="btn primary" v-on:click="counter++">Add</button>
+                <button class="btn primary" v-on:click="counter--">Delete</button>
+                <button class="btn primary" v-on:click="counter = 0">Reset</button>
+                <button class="btn primary" v-on:click="mounted">Auto +</button>
+                <button class="btn primary" v-on:click="minus">Auto -</button>
+
+
+
+                
+            </div>
+            <hr>    
+            <h1>Перевенуть слово</h1>
+           <input type="text" v-model=message> 
+                <button class="btn primary" v-on:click="reverse">world reverse</button>
+        </div>
+    </div>
+   
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
